@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", "Hiragino Sans", sans-serif;
   font-weight: 200;
+  font-size: 15px;
 }
 
 .hljs {
@@ -8,7 +9,7 @@ body {
 }
 
 h1 {
-  font-size: 32px;
-  letter-spacing: 1px;
-  font-weight: 200;
+  font-size: 39.269px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
 }

@@ -19,6 +19,8 @@
 
 &lt;h1 id=&#34;h1-hello-world-日本語もかけるよ&#34;&gt;h1: Hello World! 日本語もかけるよ&lt;/h1&gt;
 
+&lt;h2 id=&#34;h2-これくらいのサイズ&#34;&gt;h2: これくらいのサイズ。&lt;/h2&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function hello() {
   console.log(&amp;quot;Hello, World!&amp;quot;);
 }
