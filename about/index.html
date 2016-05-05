@@ -55,7 +55,15 @@
 
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+
+addEventListener('load', function() {
+  var code = document.querySelector('code');
+  var worker = new Worker('js/highlight-worker.js');
+  worker.onmessage = function(event) { code.innerHTML = event.data; }
+  worker.postMessage(code.textContent);
+});
+</script>
 
 </body>
 </html>
